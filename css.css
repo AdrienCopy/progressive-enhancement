@@ -1,0 +1,92 @@
+body {
+    width: 90%;
+    margin: 5%;
+    background-image: url(paper.jpeg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    color: gray;
+    letter-spacing: 0.05em;
+    
+}
+
+a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+a:hover {
+    color: gray;
+}
+
+a:visited {
+    color: brown;
+}
+
+blockquote {
+    width: 50%;
+    margin: 80px 25% 80px 25%;
+    font-size: 160%;
+    font-style: italic;
+    background-color: rgb(225, 225, 225);
+    border: solid;
+    border-width: 0px 0px 0px 3px;
+    border-radius: 5px;
+    padding: 30px;
+    
+}
+
+strong {
+    text-transform: uppercase;
+}
+
+img {
+    width: 50%;
+    float: left;
+    margin: 10px;
+    justify-content: left;
+}
+
+
+
+.farmer {
+    border-color: red;
+}
+
+.villagers {
+    border-color: blue;
+}
+
+header :nth-child(1n+0) {
+    background-color: yellow;
+}
+
+tr:nth-child(2n+1) {
+    background-color: rgb(202, 196, 196);
+}
+
+tr:nth-child(2n) {
+    background-color: white;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.img_types {
+    width: 15px;
+    float:initial;
+}
+
+.first {
+    font-weight: bold;
+}
